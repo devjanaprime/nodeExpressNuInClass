@@ -1,5 +1,8 @@
+var backToLife = require('./backToLife');
+
 var monkeysCrawlingOnAnAsteroidFallingFromTheSky = function(){
-  return( ' ... GOODBYE CRUEL WORLD!!!!!!');
+  var outputText = ' ... GOODBYE CRUEL WORLD!!!!!!' + backToLife();
+  return( outputText );
 };
 
 module.exports=monkeysCrawlingOnAnAsteroidFallingFromTheSky;
